@@ -21,31 +21,47 @@ const Footer = () => {
 			</div>
 			<div className={styles.center}>
 				<div className={styles.number}>
-					<i className='devicon-devicon-plain-wordmark'></i>
-					<i className='devicon-confluence-original-wordmark'></i>
-					<i className='devicon-docker-plain-wordmark'></i>
-					<i className='devicon-redhat-plain-wordmark'></i>
+					<i
+						data-aos-delay='500'
+						data-aos='zoom-in-down'
+						className='devicon-devicon-plain-wordmark'
+					></i>
+					<i
+						data-aos-delay='800'
+						data-aos='zoom-in-up'
+						className='devicon-confluence-original-wordmark'
+					></i>
+					<i
+						data-aos-delay='1100'
+						data-aos='zoom-in-down'
+						className='devicon-docker-plain-wordmark'
+					></i>
+					<i
+						data-aos-delay='1400'
+						data-aos='zoom-in-up'
+						className='devicon-redhat-plain-wordmark'
+					></i>
 				</div>
 			</div>
-			<div className={styles.back}>
+			<div id='contact' className={styles.back}>
 				<div className={styles.width}>
 					<small>CONTACT</small>
 					<h3>Get More Details</h3>
 					<div className={styles.flex}>
 						<div className={styles.content}>
-							<div className={styles.items}>
+							<div
+								data-aos-delay='500'
+								data-aos='zoom-in-left'
+								className={styles.items}
+							>
 								<span className={`material-icons ${styles.icon}`}>phone</span>
-								<div
-									data-aos-delay='800'
-									data-aos='zoom-in-left'
-									className={styles.item}
-								>
+								<div className={styles.item}>
 									<small>PHONE</small>
 									<b>+981-236-5109</b>
 								</div>
 							</div>
 							<div
-								data-aos-delay='1000'
+								data-aos-delay='700'
 								data-aos='zoom-in-left'
 								className={styles.items}
 							>
@@ -56,11 +72,11 @@ const Footer = () => {
 								</div>
 							</div>
 							<div
-								data-aos-delay='1200'
+								data-aos-delay='900'
 								data-aos='zoom-in-left'
 								className={styles.items}
 							>
-								<span className={`material-icons ${styles.icon2}`}>map</span>
+								<span className={`material-icons ${styles.icon2}`}>room</span>
 								<div className={styles.item}>
 									<small>ADDRESS</small>
 									<b>1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA</b>
@@ -79,10 +95,10 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-	
-			<div className={styles.f}>
+
+			<div id='about' className={styles.f}>
 				<div className={styles.footer}>
-					<div>
+					<div data-aos-delay='1400' data-aos='zoom-in-up'>
 						<h3>LOGO</h3>
 						<small>
 							On the sunny and panoramic hill behind the center of Verbania
@@ -91,7 +107,7 @@ const Footer = () => {
 							Marvelous rains.
 						</small>
 					</div>
-					<div>
+					<div data-aos-delay='1600' data-aos='zoom-in-down'>
 						<h3>GET IN TOUCH</h3>
 						<small>
 							032-448-251-402
@@ -104,12 +120,24 @@ const Footer = () => {
 				</div>
 				<div className={styles.footer1}>
 					<div>
-						<h5>&copy; 2021 LOGO. ALL RIGHTS RESERVED</h5>
+						<h5 data-aos='zoom-in-left'>&copy; 2021 LOGO. ALL RIGHTS RESERVED</h5>
 					</div>
 					<div>
-						<i className='devicon-facebook-plain'></i>
-						<i className='devicon-google-plain'></i>
-						<i className='devicon-linkedin-plain'></i>
+						<i
+							data-aos-delay='1400'
+							data-aos='flip-up'
+							className='devicon-facebook-plain'
+						></i>
+						<i
+							data-aos-delay='1800'
+							data-aos='flip-down'
+							className='devicon-google-plain'
+						></i>
+						<i
+							data-aos-delay='2200'
+							data-aos='flip-up'
+							className='devicon-linkedin-plain'
+						></i>
 					</div>
 				</div>
 			</div>

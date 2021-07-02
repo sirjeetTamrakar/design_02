@@ -2,11 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/Hero.module.css'
 import Navbar from './Navbar'
+import CountUp from "react-countup";
+import Link from 'next/link';
 import { numbers } from './Data'
 
 const Hero = () => {
 	return (
-		<div className={styles.main}>
+		<div id='home' className={styles.main}>
 			<Navbar />
 			<div className={styles.image}>
 				<Image
@@ -19,23 +21,38 @@ const Hero = () => {
 				/>
 			</div>
 			<div className={styles.content}>
-				<p>MADEIRA, PORTUGAL</p>
-				<b>
-					Design Together.
-					<br />
+				<p data-aos-delay='1500' data-aos='faded-down'>
+					MADEIRA, PORTUGAL
+				</p>
+				<b data-aos-delay='1000' data-aos='zoom-in-down'>
+					<div data-aos-delay='2500' data-aos='zoom-in-right'>
+						Design Together.
+					</div>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Together.
 				</b>
-				<small>
+				<small data-aos-delay='3000' data-aos='flip-up'>
 					Like travel photography, travel writing is also about capturing a
 					sense of place as well through words and descriptions.
 				</small>
-				<button>Explore Now</button>
+				<Link href='#projects'>
+					<button data-aos-delay='3000' data-aos='zoom-out-up'>
+						Explore Now
+					</button>
+				</Link>
 			</div>
 			<div className={styles.center}>
-				<div className={styles.number}>
+				<div
+					data-aos='zoom-in-up'
+					className={styles.number}
+				>
 					{numbers.map(number => (
 						<div className={styles.item} key={number.id}>
-							<b>{number.number}</b>
+							<b>
+								<CountUp delay={1} duration={3} end={number.number}>
+									{number.number}
+								</CountUp>
+								{number.back}
+							</b>
 							<small>{number.name}</small>
 						</div>
 					))}

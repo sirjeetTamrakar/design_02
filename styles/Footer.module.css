@@ -55,12 +55,12 @@ align-items: center;
 }
 
 .icon{
-    background-color: #feaa6f;
+    background-color: #ff9447;
     border-radius: 1rem;
 }
 
 .icon1{
-    background-color: #eea8b3;
+    background-color: #7ea4e9;
     border-radius: 1rem;
 }
 
@@ -96,6 +96,9 @@ align-items: center;
     border-radius: .2rem;
     resize: none;
     margin-bottom: 1rem;
+}
+.contact>input:focus, .input1>input:focus, .contact>textarea:focus, .contact>button:focus{
+   outline: none;
 }
 
 .contact>button{

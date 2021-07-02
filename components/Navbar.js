@@ -13,6 +13,8 @@ const Navbar = () => {
 					<span
 						className={`${styles.menu_icon} material-icons`}
 						onClick={() => setMenuIcon(!menuIcon)}
+						data-aos-delay='3000'
+						data-aos='zoom-in-up'
 					>
 						{!menuIcon ? "menu" : "close"}
 					</span>
@@ -21,7 +23,7 @@ const Navbar = () => {
 						onClick={() => setMenuIcon(!menuIcon)}
 					>
 						<div
-							data-aos-delay='2500'
+							data-aos-delay='2950'
 							data-aos='zoom-in-up'
 							data-aos-once='true'
 							className={styles.link}
@@ -29,7 +31,7 @@ const Navbar = () => {
 							<Link href='#home'>HOME</Link>
 						</div>
 						<div
-							data-aos-delay='2650'
+							data-aos-delay='2850'
 							data-aos='zoom-in-up'
 							data-aos-once='true'
 							className={styles.link}
@@ -45,15 +47,15 @@ const Navbar = () => {
 							<Link href='#projects'>PROJECTS</Link>
 						</div>
 						<div
-							data-aos-delay='2850'
+							data-aos-delay='2650'
 							data-aos='zoom-in-up'
 							data-aos-once='true'
 							className={styles.link}
 						>
-							<Link href='#blog'>BLOG</Link>
+							<Link href='#home'>BLOG</Link>
 						</div>
 						<div
-							data-aos-delay='2850'
+							data-aos-delay='2500'
 							data-aos='zoom-in-up'
 							data-aos-once='true'
 							className={styles.link}

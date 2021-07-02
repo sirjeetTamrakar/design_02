@@ -91,6 +91,12 @@
 }
 }
 
+@media screen and (max-width:400px) {
+  .head{
+     overflow-x: hidden;
+  }
+}
+
 @media screen and (max-width:500px) {
     .head{
         width: 100%;

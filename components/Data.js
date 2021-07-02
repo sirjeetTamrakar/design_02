@@ -1,30 +1,3 @@
-export const steps = [
-					{
-						id: "01",
-						title: "Create an Account",
-						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
-						delay: 1000,
-					},
-					{
-						id: "02",
-						title: "Choose Any Course",
-						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
-						delay: 1200,
-					},
-					{
-						id: "03",
-						title: "Payment",
-						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
-						delay: 1400,
-					},
-					{
-						id: "04",
-						title: "Enjoy Your Course",
-						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
-						delay: 1600,
-					},
-				];
-
 export const courses = [
 					{
 						id: 1,
@@ -84,23 +57,27 @@ export const courses = [
 export const numbers = [
 					{
 						id: 1,
-						number: "50+",
+						number: 380,
+						back: "+",
 						name: "Projects",
 					},
 					{
 						id: 2,
-						number: "80+",
+						number: 250,
+						back: "+",
 						name: "Clients",
 					},
 
 					{
 						id: 3,
-						number: "1K",
+						number: 400,
+						back: "K",
 						name: "Hours",
 					},
 					{
 						id: 4,
-						number: "10",
+						number: 60,
+						back: "+",
 						name: "Teammates",
 					},
 				];

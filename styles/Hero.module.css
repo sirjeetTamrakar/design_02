@@ -43,6 +43,11 @@
     margin-top: 2rem;
     font-size: 1.2rem;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.content>button:focus{
+    outline: none;
 }
 
 .content>button:hover{
@@ -173,4 +178,9 @@
 .content>button{
     font-size: .6rem;
 }
+
+ .item>b{
+     font-size: 1rem;
+ }
+
 }
