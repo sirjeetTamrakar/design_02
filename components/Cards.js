@@ -27,7 +27,7 @@ const Cards = () => {
 							</div>
 							<div
 								data-aos-delay={delay}
-								data-aos='zoom-in-left'
+								data-aos='zoom-out-up'
 								className={styles.content}
 							>
 								<p>{date}</p>
