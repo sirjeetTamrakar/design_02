@@ -9,6 +9,18 @@
     width: 100%;
     position: relative;
     height: 40vh;
+    background-color: black;
+}
+
+
+
+.img{
+    transition: all .5s ease-in-out;
+}
+
+.img:hover{
+    transform: scale(1.2);
+    opacity: .8;
 }
 
 .grid{

@@ -24,6 +24,7 @@ const Cards = () => {
 									layout='fill'
 									alt='Hello'
 								/>
+
 							</div>
 							<div
 								data-aos-delay={delay}
