@@ -306,6 +306,9 @@ align-items: center;
 .image{
     min-height: 95rem;
 }
+.main{
+    overflow-x: hidden;
+}
 }
 
 @media screen and (max-width:370px) {
@@ -321,6 +324,7 @@ align-items: center;
 .f{
     top:72%;
 }
+
 
 }
 

@@ -3,6 +3,8 @@
 }
 .image{
     background-color: black;
+    height: 110vh;
+    width: 100%;
 }
 .img{
     opacity: .2;
@@ -93,6 +95,15 @@
 .item>b{
     font-size: 2.25rem;
 }
+
+.image{
+    height: 80vh;
+}
+}
+@media screen and (max-width:1100px) {
+   .content>b{
+    font-size: 3.2rem;
+}
 }
 
 @media screen and (max-width:1000px) {
@@ -109,24 +120,25 @@
 .content>small{
     font-size: .7rem;
     margin-top: 1rem;
-    width: 90%;
+    width: 50%;
 }
 
 .content>button{
     margin-top: 1rem;
 }
 }
+
 @media screen and (max-width:800px) {
-    .content>b{
-    font-size: 2rem;
+   .content>b{
+    font-size: 2.5rem;
 }
 .content{
-    top: 50px;
+    top: 20%;
 }
 .content>button{
-    font-size: .7rem;
-    padding: .5rem .7rem;
-    margin-top: 1rem;
+    font-size: 1rem;
+    padding: .7rem 1rem;
+    margin-top: 2rem;
 }
 
 
@@ -139,19 +151,15 @@
 }
 
 @media screen and (max-width:600px) {
-    .content>b{
-    font-size: 2rem;
-}
+    
 .content>button{
-    font-size: .7rem;
+    font-size: 1rem;
     padding: .5rem .7rem;
     
 }
-.content>small{
-    display: none;
-}
+
 .content>p{
-    font-size: .6rem;
+    font-size: .8rem;
 }
 .content{
     top: 25%;
@@ -162,12 +170,15 @@
 .number{
     padding: 1rem;
 }
+.main{
+    overflow-block: hidden;
+}
 }
 
 
 @media screen and (max-width:500px) {
     .content>b{
-    font-size: 1.2rem;
+    font-size: 2.2rem;
 }
 .item>b{
      font-size: 1rem;
@@ -175,19 +186,35 @@
  .item>small{
      font-size: .7rem;
  }
+
+ .content>small{
+display: none; }
+ .image{
+     height: 60vh;
+ }
 }
 
 @media screen and (max-width:400px) {
     .content>b{
-    font-size: 1rem;
+    font-size: 1.7rem;
 }
 .content>button{
-    font-size: .6rem;
+    font-size: .8rem;
 }
+.item>small{
+     font-size: .6rem;
+ }
 
+ .content>p{
+     font-size: .6rem;
+ }
  
 
  .number{
      padding: 0;
+ }
+
+ .image{
+     height: 50vh;
  }
 }

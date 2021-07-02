@@ -14,8 +14,8 @@ const Hero = () => {
 				<Image
 					src='/15.jpg'
 					className={styles.img}
-					height={1080}
-					width={1920}
+					layout='fill'
+					objectFit='cover'
 					alt='Picture'
 					priority
 				/>

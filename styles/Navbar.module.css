@@ -85,7 +85,7 @@ background-color: rgba(0,0,0,.8);
   }
 
   .mobile_links>.link{
-    font-size: xx-large;
+    font-size: x-large;
     margin-bottom: 2rem;
   }
 
@@ -106,7 +106,6 @@ background-color: rgba(0,0,0,.8);
   .links{
     display: none;
   }
-  
 
 }
 
