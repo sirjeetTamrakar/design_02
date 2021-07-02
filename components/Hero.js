@@ -42,7 +42,6 @@ const Hero = () => {
 			</div>
 			<div className={styles.center}>
 				<div
-					data-aos='zoom-in-up'
 					className={styles.number}
 				>
 					{numbers.map(number => (

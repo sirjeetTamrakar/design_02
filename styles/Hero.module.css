@@ -169,6 +169,12 @@
     .content>b{
     font-size: 1.2rem;
 }
+.item>b{
+     font-size: 1rem;
+ }
+ .item>small{
+     font-size: .7rem;
+ }
 }
 
 @media screen and (max-width:400px) {
@@ -179,8 +185,9 @@
     font-size: .6rem;
 }
 
- .item>b{
-     font-size: 1rem;
- }
+ 
 
+ .number{
+     padding: 0;
+ }
 }

@@ -120,7 +120,12 @@ const Footer = () => {
 				</div>
 				<div className={styles.footer1}>
 					<div>
-						<h5 data-aos='zoom-in-left'>&copy; 2021 LOGO. ALL RIGHTS RESERVED</h5>
+						<h5
+							data-aos='zoom-in-left'
+							data-aos-offset='30'
+						>
+							&copy; 2021 LOGO. ALL RIGHTS RESERVED
+						</h5>
 					</div>
 					<div>
 						<i
