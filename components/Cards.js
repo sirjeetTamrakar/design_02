@@ -23,6 +23,7 @@ const Cards = () => {
 									className={styles.img}
 									layout='fill'
 									alt='Hello'
+									priority
 								/>
 
 							</div>
