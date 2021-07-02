@@ -24,6 +24,8 @@ const Cards = () => {
 									layout='fill'
 									alt='Hello'
 									priority
+									blurDataURL='data:...'
+									placeholder='blur'
 								/>
 
 							</div>

@@ -16,6 +16,8 @@ const Hero = () => {
 					className={styles.img}
 					layout='fill'
 					objectFit='cover'
+					blurDataURL='data:...'
+					placeholder='blur'
 					alt='Picture'
 					priority
 				/>
@@ -41,9 +43,7 @@ const Hero = () => {
 				</Link>
 			</div>
 			<div className={styles.center}>
-				<div
-					className={styles.number}
-				>
+				<div className={styles.number}>
 					{numbers.map(number => (
 						<div className={styles.item} key={number.id}>
 							<b>
