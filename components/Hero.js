@@ -30,7 +30,7 @@ const Hero = () => {
 					</div>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Together.
 				</b>
-				<small data-aos-delay='3000' data-aos='flip-up'>
+				<small data-aos-delay='2700' data-aos='flip-up'>
 					Like travel photography, travel writing is also about capturing a
 					sense of place as well through words and descriptions.
 				</small>

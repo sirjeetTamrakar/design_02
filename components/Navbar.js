@@ -13,7 +13,7 @@ const Navbar = () => {
 					<span
 						className={`${styles.menu_icon} material-icons`}
 						onClick={() => setMenuIcon(!menuIcon)}
-						data-aos-delay='3000'
+						data-aos-delay='2800'
 						data-aos='zoom-in-up'
 					>
 						{!menuIcon ? "menu" : "close"}
