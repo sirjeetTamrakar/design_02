@@ -8,7 +8,7 @@
 .image{
     width: 100%;
     position: relative;
-    height: 40vh;
+    height: 16rem;
     background-color: black;
 }
 
@@ -70,8 +70,8 @@
         width: 100%;
     }
     .image{
-        height: 30vh;
-    }
+    height: 13rem;
+}
     .head>small, .head>h3{
         padding-inline: 2rem;
     }
@@ -99,8 +99,9 @@
     text-align: center;
 }
 .image{
-    height: 40vh;
+    height: 15rem;
 }
+
 }
 
 @media screen and (max-width:400px) {
@@ -119,9 +120,6 @@
         padding: 2rem 0;
     }
 
-    .image{
-        height: 40vh;
-    }
 
 }
 
